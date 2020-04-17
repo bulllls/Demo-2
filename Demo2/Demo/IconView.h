@@ -10,7 +10,14 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+typedef NS_ENUM(NSInteger, IconViewType) {
+    IconViewTypeCheckmark = 0,
+    IconViewTypeHeart = 1
+};
+
 @interface IconView : UIView
+
+@property (nonatomic, assign) IconViewType type;
 
 @end
 

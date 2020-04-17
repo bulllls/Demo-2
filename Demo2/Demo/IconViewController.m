@@ -48,6 +48,8 @@ int const BUTTON_HEIGHT = 20;
 
 - (void)changeButtonDidTap:(UIButton *)button {
     NSLog(@"Change button did tap");
+    self.iconView.type = IconViewTypeHeart;
+    [self.iconView setNeedsDisplay];
 }
 
 @end
