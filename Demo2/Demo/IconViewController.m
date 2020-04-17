@@ -7,8 +7,13 @@
 //
 
 #import "IconViewController.h"
+#import "IconView.h"
+
+int const ICON_SIZE = 100;
 
 @interface IconViewController ()
+
+@property(nonatomic, strong) IconView *iconView;
 
 @end
 
@@ -17,16 +22,15 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = UIColor.whiteColor;
+    
+    [self setupIconView];
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (void)setupIconView {
+    self.iconView = [[IconView alloc] initWithFrame:CGRectMake(self.view.bounds.size.width / 2 - ICON_SIZE / 2, 150, ICON_SIZE, ICON_SIZE)];
+    self.iconView.backgroundColor = UIColor.systemGrayColor;
+    [self.view addSubview:self.iconView];
 }
-*/
+
 
 @end

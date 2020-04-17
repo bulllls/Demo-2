@@ -15,6 +15,7 @@
 		44C8DFF02448C7BB0021AEDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44C8DFEE2448C7BB0021AEDC /* LaunchScreen.storyboard */; };
 		44C8DFF32448C7BB0021AEDC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C8DFF22448C7BB0021AEDC /* main.m */; };
 		44C8DFFC2449D25A0021AEDC /* IconViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C8DFFB2449D25A0021AEDC /* IconViewController.m */; };
+		44C8DFFF2449E5A10021AEDC /* IconView.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C8DFFE2449E5A10021AEDC /* IconView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		44C8DFF22448C7BB0021AEDC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		44C8DFFA2449D25A0021AEDC /* IconViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IconViewController.h; sourceTree = "<group>"; };
 		44C8DFFB2449D25A0021AEDC /* IconViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IconViewController.m; sourceTree = "<group>"; };
+		44C8DFFD2449E5A10021AEDC /* IconView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IconView.h; sourceTree = "<group>"; };
+		44C8DFFE2449E5A10021AEDC /* IconView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IconView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 			children = (
 				44C8DFFA2449D25A0021AEDC /* IconViewController.h */,
 				44C8DFFB2449D25A0021AEDC /* IconViewController.m */,
+				44C8DFFD2449E5A10021AEDC /* IconView.h */,
+				44C8DFFE2449E5A10021AEDC /* IconView.m */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
@@ -164,6 +169,7 @@
 				44C8DFE22448C7B70021AEDC /* AppDelegate.m in Sources */,
 				44C8DFF32448C7BB0021AEDC /* main.m in Sources */,
 				44C8DFE52448C7B70021AEDC /* SceneDelegate.m in Sources */,
+				44C8DFFF2449E5A10021AEDC /* IconView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
